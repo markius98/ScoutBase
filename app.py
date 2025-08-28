@@ -4,11 +4,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-streamlit>=1.31
-pandas>=2.0
-plotly>=5.18
-numpy>=1.23
-matplotlib>=3.7
+
 
 st.set_page_config(page_title="ScoutBase", layout="wide")
 st.title("ScoutBase - Premier League 2024/2025")
