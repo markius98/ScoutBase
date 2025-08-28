@@ -12,7 +12,7 @@ st.title("ScoutBase - Premier League 2024/2025")
 # ========= CARGA DE DATOS =========
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("datos/scoutbase_premier_league_updated.csv")
+    df = pd.read_csv("scoutbase_premier_league_updated.csv")
     # Conversión robusta de numéricos comunes
     num_cols = [
         "Age","MP","Starts","Min","90s","Gls","Ast","G+A","G-PK","PK","PKatt",
